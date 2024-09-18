@@ -1,6 +1,7 @@
 # Jarkom-Modul-1-IT32-2024
 
 Nama : Muhammad Kenas Galeno Putra (5027231069)
+Nama : Veri Rahman (50272310**)
 
 **Advance Sanity Check**
 Disini ditemukan Ussername JaneD03
