@@ -47,6 +47,7 @@ Kemudian, memasukkan ke dalam step yang diminta dan mendapatkan flag
 ![EZ](https://github.com/user-attachments/assets/e8844712-dfbc-4d64-9f01-3eaa8de7a3b2)
 
 **Surprise**
+
 Pertama, saya memasukkan nc 10.15.42.60 48500 untuk mengetahui step-stepnya
 
 Lalu, saya menggunakan filter tcp.stream eq 4
@@ -59,6 +60,7 @@ Kemudian, memasukan ke dalam step sehingga mendapatkan flag
 ![Surprise](https://github.com/user-attachments/assets/4842ce6f-af82-4dc8-81af-2c988bebaac8)
 
 **FTP Login**
+
 Pertama, saya memasukkan nc 10.15.42.60 49000 untuk mengetahui step nya
 
 Lalu, saya menggunakan filter tcp.stream eq 4
@@ -68,6 +70,7 @@ Kemudian, saya memasukkan kunci ke dalam step sehingga mendapatkan flag
 ![Screenshot from 2024-09-19 00-28-31](https://github.com/user-attachments/assets/9fa64eb8-c3f0-4ce7-9dd7-a2725d2b41ae)
 
 **Corporate Breach**
+
 Pertama, saya memasukkan nc 10.15.42.60 51000 untuk mengetahui step nya
 
 Lalu, saya menggunakan filter tcp.sream eq 0
@@ -80,6 +83,7 @@ Kemudian, saya masukkan untuk mendapatkan flag
 ![Screenshot from 2024-09-19 00-26-00](https://github.com/user-attachments/assets/52b2747d-0bc9-4601-b521-39d5138cc696)
 
 **Illegal Breakthrough**
+
 Pertama, saya masukkan nc 10.15.42.60 46000 untuk mengetahui step-stepnya
 
 Lalu, saya menggunakan filter tcp.stream eq 1
@@ -89,6 +93,7 @@ Lalu, saya masukkan untuk mendapatkan flag
 ![Illegal Breakthrough](https://github.com/user-attachments/assets/90010147-3690-4a05-843c-4f9e99496816)
 
 **22 Nightmare**
+
 Pertama, saya masukan nc 10.15.42.60 45000 untuk mengetahui stepnya
 
 Lalu, saya masukkan untuk mendapatkan flag
