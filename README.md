@@ -38,6 +38,7 @@ Ini mendapat flag
 ![Screenshot 2024-09-18 231006](https://github.com/user-attachments/assets/caf741f8-de72-43ea-9031-b91ef6b9a723)
 
 **EZ**
+
 Pertama, saya memasukkan nc 10.15.42.60 49000 untuk mengetahui step-stepnya
 
 Lalu, saya menggunakan filter tcp.stream eq 0
