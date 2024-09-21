@@ -2,7 +2,7 @@
 
 Nama : Muhammad Kenas Galeno Putra (5027231069)
 
-Nama : Veri Rahman (50272310**)
+Nama : Veri Rahman (5027231088)
 
 **Advance Sanity Check**
 
@@ -97,8 +97,40 @@ Lalu, saya masukkan untuk mendapatkan flag
 
 Pertama, saya masukan nc 10.15.42.60 45000 untuk mengetahui stepnya
 
+Lalu, saya menggunakan filter tcp.stream eq 3
+![Cuplikan layar 2024-09-19 015631](https://github.com/user-attachments/assets/dc30699c-dc44-48cd-a2f1-4e0ccf6a5118)
+
+filter dengan cari kata STOR dan export keduanya
+![Cuplikan layar 2024-09-21 225737](https://github.com/user-attachments/assets/79321677-b607-4193-b11d-c597d36063f2)
+![Cuplikan layar 2024-09-19 015946](https://github.com/user-attachments/assets/e7170b28-7c74-4d89-9ca0-b85986182e86)
+
+Kemudian, saya gpt untuk kode python untuk memecahkan file noko.py
+![Cuplikan layar 2024-09-21 230053](https://github.com/user-attachments/assets/ea406adc-4ec6-4bb4-9756-954cf03cd68c)
+
 Lalu, saya masukkan untuk mendapatkan flag
 ![22 Nightmare](https://github.com/user-attachments/assets/aa51ed12-54b2-4a1c-903d-cf48af4bbdf7)
+
+**REVISI**
+
+Pada soal 22 Nightmare saya belum memasukkan step-stepnya
+
+**InneRCE**
+
+Pertama, saya download file dan masukkan nc 10.15.42.60 56000 untuk mengetahui pertanyaannya
+
+Lalu, saya menggunakan filter tcp.stream eq 27
+![Cuplikan layar 2024-09-21 230655](https://github.com/user-attachments/assets/352e7283-4a01-40ae-a761-f94e014ed0f6)
+
+Lalu, saya menggunakan filter tcp.stream eq 55
+![Cuplikan layar 2024-09-21 230733](https://github.com/user-attachments/assets/c5acff8f-f226-4819-b989-cfc6e8ef152c)
+
+Lalu, saya menggunakan filter tcp.stream eq 52 dan menemukan base64 yang harus didecode untuk mendapatkan pesannya
+![Cuplikan layar 2024-09-21 230814](https://github.com/user-attachments/assets/209f1fa1-bd32-4619-89e0-13997c05a694)
+
+![Cuplikan layar 2024-09-21 230915](https://github.com/user-attachments/assets/feba57da-9bd1-4a4c-bb8a-d4bb89bc9be9)
+
+Lalu, saya masukkan sehingga mendapatkan flag
+![Screenshot from 2024-09-21 23-20-06](https://github.com/user-attachments/assets/f121a8eb-d870-47b6-a49c-8a731e12abdf)
 
 
 
