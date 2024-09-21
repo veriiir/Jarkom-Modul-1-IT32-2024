@@ -39,9 +39,9 @@ Ini mendapat flag
 
 **EZ**
 
-Pertama, saya memasukkan nc 10.15.42.60 49000 untuk mengetahui step-stepnya
+Pertama, saya memasukkan nc 10.15.42.60 54000 untuk mengetahui step-stepnya
 
-Lalu, saya menggunakan filter tcp.stream eq 0
+Lalu, saya menggunakan filter tcp.stream eq 0 untuk melihat petunjuk
 ![Cuplikan layar 2024-09-19 011209](https://github.com/user-attachments/assets/a107e477-795a-4206-b414-7f972417adde)
 
 Kemudian, memasukkan ke dalam step yang diminta dan mendapatkan flag
@@ -131,6 +131,21 @@ Lalu, saya menggunakan filter tcp.stream eq 52 dan menemukan base64 yang harus d
 
 Lalu, saya masukkan sehingga mendapatkan flag
 ![Screenshot from 2024-09-21 23-20-06](https://github.com/user-attachments/assets/f121a8eb-d870-47b6-a49c-8a731e12abdf)
+
+
+**Packets Barrage**
+
+Pertama, saya download file dan masukkan nc 10.15.42.60 47000 untuk mengetahui pertanyaannya
+
+Lalu, saya menggunakan filter http sehingga menampilkan ip pengirim dan penerima, tetapi sebenarnya tidak perlu di filter sudah terlihat dengan jelas
+![Cuplikan layar 2024-09-22 010344](https://github.com/user-attachments/assets/92fa1762-f30a-4462-8009-1f3ebb23f1fe)
+![Cuplikan layar 2024-09-22 011034](https://github.com/user-attachments/assets/cf421ca9-7e09-4ace-96dc-77c118581a59)
+
+Lalu, saya menggunakan filter http lagi dan menemukan salah satu file dengan keterangan download dan dalam bentuk zip
+![Cuplikan layar 2024-09-22 010528](https://github.com/user-attachments/assets/3420d982-7838-4cbe-94cd-bbcbfabba588)
+
+Lalu, saya masukkan jawaban yang ditemukan sehingga mendapatkan flag
+![Screenshot from 2024-09-22 01-14-25](https://github.com/user-attachments/assets/f0d44db2-176b-4fe4-85e5-762b28e3dd35)
 
 
 
