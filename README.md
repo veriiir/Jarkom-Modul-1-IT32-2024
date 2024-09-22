@@ -1,4 +1,4 @@
-# Jarkom-Modul-1-IT32-2024
+# Jarkom-Modul-1-2024-IT32
 
 Nama : Muhammad Kenas Galeno Putra (5027231069)
 
